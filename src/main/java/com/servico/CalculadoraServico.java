@@ -14,15 +14,15 @@ import javax.jws.soap.SOAPBinding;
 public interface CalculadoraServico {
 
     @WebMethod
-    public double getAdicao(double a, double b);
+    public double getSoma(double a, double b);
 
     @WebMethod
-    public double getSubtracao(double a, double b);
+    public double getDiferenca(double a, double b);
 
     @WebMethod
     public double getProduto(double a, double b);
 
     @WebMethod
-    public double getDivisao(double a, double b);
+    public double getQuociente(double a, double b);
 
 }
